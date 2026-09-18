@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Saidas geradas
+dist/
+build/
+__pycache__/
+*.pyc
+
+# Configuracoes locais e segredos
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Editores e sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+

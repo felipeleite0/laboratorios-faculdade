@@ -1,0 +1,18 @@
+{
+  "name": "exercicios-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercicios introdutorios de TypeScript e JavaScript",
+  "scripts": {
+    "verificar": "tsc --noEmit",
+    "soma": "tsx src/app.ts",
+    "variaveis": "tsx src/variaveis.ts",
+    "javascript": "node src/soma.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
+
